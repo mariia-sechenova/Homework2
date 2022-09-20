@@ -68,8 +68,8 @@ public class Main {
         System.out.println("Всего работников в компании - " + employees + " человек ");
 
         employees += 94;
-        workingDay = totalHours / employees;
-        System.out.println("Если в компании работает " + employees + " человек, то всего " + workingDay + " часов работы может быть поделено между сотрудниками");
+        totalHours = workingDay * employees;
+        System.out.println("Если в компании работает " + employees + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
     }
 }
 
